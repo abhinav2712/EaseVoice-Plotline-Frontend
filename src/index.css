@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: #050051;
+}
+
+.item-button button {
+  margin-top: 20px;
+  width: 120px;
+  background-color: rgb(7, 29, 141);
+  color: white;
+}
+
+.spinner {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 80px;
+  width: 80px;
+}
+
+.category{
+  border:3px solid rgb(26, 1, 118);
+  border-radius: 5px;
+  padding:10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.category-active{
+  border: 4px solid rgb(0, 124, 240);
+  background-color: rgb(8, 182, 240);
+}
+
+
+
+
+/* Header Styles */
+.header {
+  background-color: #071d8d;
+  color: rgb(4, 0, 130);
+  padding: 10px;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero Section Styles */
+.hero {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #071d8d;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #071d8d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #003776;
+}
+
+/* Form Section Styles */
+.register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.register-form {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.register-form h1 {
+  background-color: #071d8d;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.register-form h3 {
+  color: #071d8d;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Form Input Styles */
+.register-form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+.register-form .ant-btn {
+  background-color: #071d8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form .ant-btn:hover {
+  background-color: #003776;
+}
+
+/* Error Message Styles */
+.ant-form-item-explain-error {
+  color: red;
+}

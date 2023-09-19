@@ -1,0 +1,15 @@
+.cart-container {
+    position: relative;
+  }
+  
+  /* Style for the Empty Cart button */
+  .empty-cart-button {
+    position: absolute;
+    top: 150px;
+    margin-right:100px;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+ 
